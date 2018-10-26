@@ -125,9 +125,11 @@ public class CSC310Project1 {
             System.out.print(sorted[i]+" ");
         }
         
+        System.out.println("");// for formatting
+        
         //question 2
         System.out.println("Please enter your postfix notation equation: ");
-        String postFix = in.nextLine();
+        String postFix = in.next();
         String ans = solvePostfix(postFix);
         System.out.println("The answer is "+ans);
         
